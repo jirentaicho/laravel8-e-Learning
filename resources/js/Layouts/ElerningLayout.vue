@@ -1,8 +1,7 @@
 <template>
     <div>
         <!-- header -->
-        <div class="w-full h-32 bg-gray-400">ヘッダー</div>
-
+        <Header />
         <button @click="show = !show" class="text-gray-500 focus:outline-none text-5xl md:hidden">
           :::
         </button>
@@ -56,6 +55,7 @@
 <script>
     import { defineComponent } from 'vue'
     import { Link } from '@inertiajs/inertia-vue3';
+    import Header from '@/Layouts/parts/Header.vue';
 
     export default defineComponent({
         props: {
@@ -63,6 +63,7 @@
         },
         components: {
             Link,
+            Header,
         },
         data() {
             return {

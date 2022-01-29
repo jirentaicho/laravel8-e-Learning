@@ -62,3 +62,7 @@
         },
     })
 </script>
+
+<style scoped>
+@import "/css/github.css";
+</style>

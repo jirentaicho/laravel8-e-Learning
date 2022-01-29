@@ -1,0 +1,46 @@
+table: courses
+data:
+  - 
+    category_id: 1
+    file: sample.md
+    title: インシデント発生時の報告方法について
+  -
+    category_id: 1
+    file: security.md
+    title: 入館証の取り扱いについて
+  -
+    category_id: 2
+    file: hoge1.md
+    title: 常駐時の作業報告について
+  -
+    category_id: 2
+    file: hoge2.md
+    title: 常駐先での機密情報の取り扱いについて
+  -
+    category_id: 2
+    file: hoge3.md
+    title: 通勤カバンについて
+  -
+    category_id: 2
+    file: kenshu.md
+    title: 研修制度について
+  -
+    category_id: 2
+    file: sample.md
+    title: 常駐先でのマナーについて
+  -
+    category_id: 3
+    file: add.md
+    title: 追加したLevel3の講義です
+  -
+    category_id: 4
+    file: addtest.md
+    title: Leve4カテゴリと当講義を追加
+  -
+    category_id: 4
+    file: hoge111.md
+    title: 更にテストでレベル４を追加しました
+  -
+    category_id: 3
+    file: sample.md
+    title: これはLEVEL3です

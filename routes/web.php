@@ -33,7 +33,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 
 // 通常ユーザーの管理ページを表示します。
-Route::get('/mydashbord', [CourseUserController::class,'dashbord'])->middleware('auth');
+Route::get('/mydashbord', [CourseUserController::class,'dashbord'])->middleware('auth')->name('mydashboard');
 Route::get('/course/{category}',[CourseController::class, 'index'])->middleware('auth')->name('course.category');
 Route::get('/course/detail/{id}',[CourseController::class, 'detail'])->middleware('auth')->name('course.detail');
 Route::post('/course/done', [CourseController::class, 'done'])->middleware('auth')->name('course.done');
